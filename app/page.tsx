@@ -5,7 +5,7 @@ import Intro from "@/src/components/intro/intro";
 import Experience from "@/src/components/experience/experience";
 import Education from "@/src/components/education/education";
 import Lander from "@/src/components/lander/lander";
-
+import SocialLinks from "@/src/components/social/social";
 import { Pagination, Mousewheel, Keyboard } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Swiper as SwiperType } from "swiper";
@@ -15,7 +15,14 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 export default function Page() {
-  const { personalInfo, experience, education, certifications, landers } = user;
+  const {
+    personalInfo,
+    experience,
+    education,
+    certifications,
+    landers,
+    socialLinks,
+  } = user;
   const experienceSwipterRef = useRef<SwiperType | null>(null);
   const educationSwipterRef = useRef<SwiperType | null>(null);
   const landerSwipterRef = useRef<SwiperType | null>(null);
@@ -74,6 +81,10 @@ export default function Page() {
         </SwiperSlide>
         <SwiperSlide>
           <Lander data={landers} ref={landerSwipterRef} />
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <SocialLinks data={socialLinks} />
         </SwiperSlide>
       </Swiper>
     </main>

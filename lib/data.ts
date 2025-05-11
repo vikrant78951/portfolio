@@ -45,7 +45,17 @@ export const user = {
     {
       label: "Leetcode",
       url: "https://leetcode.com/u/vikrant78951",
-      icon: "braces",
+      icon: "leetcode",
+    },
+    {
+      label: "Gmail",
+      url: "mailto:vikrant78951@gmail.com",
+      icon: "gmail",
+    },
+    {
+      label: "Contact",
+      url: "tel:+919833311502",
+      icon: "contact",
     },
   ],
 
