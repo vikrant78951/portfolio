@@ -6,8 +6,8 @@ import { inter } from '@/src/fonts/inter'
 
 
 export const metadata: Metadata = {
-  title: "",
-  description: "",
+  title: "Vikas Singh",
+  description: "Portfolio",
 };
 
 export default function RootLayout({
