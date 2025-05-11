@@ -7,6 +7,7 @@ import { cn } from "@/lib/utils";
 import type { SocialLink } from "@/lib/defination";
 import Link from "next/link";
 import Icon from "@/src/components/ui/svg";
+import PanelIndex from "./panel-index";
 
 const PanelSocial = ({
   title,
@@ -23,9 +24,8 @@ const PanelSocial = ({
     >
       <div className="h-full min-h-screen pl-8 sm:pl-16 md:pl-20 lg:pl-24 pr-4  py-4 sm:py-6 md:py-8 lg:py-10  inline-flex flex-col justify-center gap-4 sm:gap-5 md:gap-6 lg:gap-7">
         <Stroke size={1} />
-
+        <PanelIndex index={'Active'} />
         <PanelSimiTitle className="font-bold">{title}</PanelSimiTitle>
-
         <Stroke>
           <div className="w-full">
             {data && (
