@@ -44,45 +44,44 @@
 }
 
 :root {
-  --background: #121212;           /* deep charcoal */
-  --foreground: #f4f4f4;           /* light platinum */
+  --background: #121212; /* deep charcoal */
+  --foreground: #f4f4f4; /* light platinum */
 
-  --card: #1e1e1e;                 /* dark charcoal */
+  --card: #1e1e1e; /* dark charcoal */
   --card-foreground: #f4f4f4;
 
   --popover: #1e1e1e;
   --popover-foreground: #f4f4f4;
 
-  --primary: #2744cc;              /* luxury gold */
+  --primary: #d4af37;
   --primary-foreground: #121212;
 
-  --secondary: #2c2c2c;            /* mid charcoal */
+  --secondary: #2c2c2c;
   --secondary-foreground: #f4f4f4;
 
   --muted: #191919;
   --muted-foreground: #999999;
 
-  --accent: #2744cc;
+  --accent: #d4af37;
   --accent-foreground: #121212;
 
   --border: #2a2a2a;
   --input: #1e1e1e;
-  --ring: #2744cc;
+  --ring: #d4af37;
 
   --sidebar: #1e1e1e;
   --sidebar-foreground: #f4f4f4;
-  --sidebar-primary: #2744cc;
+  --sidebar-primary: #d4af37;
   --sidebar-primary-foreground: #121212;
   --sidebar-accent: #2c2c2c;
   --sidebar-accent-foreground: #f4f4f4;
   --sidebar-border: #2a2a2a;
-  --sidebar-ring: #2744cc;
+  --sidebar-ring: #d4af37;
 }
-
 
 @layer base {
   * {
-    @apply border-border outline-ring/50 ;
+    @apply border-border outline-ring/50;
   }
   body {
     @apply bg-background text-foreground;
