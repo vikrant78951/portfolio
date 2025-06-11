@@ -1,4 +1,4 @@
-import PanelSocial from "../panel/panel-social";
+import PanelSocial from "../panel/social";
 import type { SocialLink } from "@/lib/defination";
 
 import React from "react";

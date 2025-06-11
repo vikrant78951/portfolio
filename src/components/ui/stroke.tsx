@@ -17,7 +17,7 @@ const Stroke: React.FC<StrokeProps> = ({ size = 12, className, children }) => {
     >
       <div
         className={cn(
-          `w-1 bg-gray-700 h-full flex-shrink-0 ml-1 md:ml-2 lg:ml-3`
+          `w-1 bg-primary h-full flex-shrink-0 ml-1 md:ml-2 lg:ml-3`
         )}
       />
       <div className="flex-1">{children}</div>

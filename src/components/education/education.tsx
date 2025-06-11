@@ -1,8 +1,8 @@
 import React from "react";
 import Panel from "@/src/components/panel/panel";
 import type { Education, Certification } from "@/lib/defination";
-import PanelEducation from "../panel/panel-education";
-import PanelCertification from "../panel/panel-certification";
+import PanelEducation from "../panel/education";
+import PanelCertification from "../panel/certification";
 
 import { Pagination, Mousewheel, Keyboard } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";

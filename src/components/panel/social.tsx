@@ -1,13 +1,13 @@
 "use client";
 import React from "react";
 import Stroke from "@/src/components/ui/stroke";
-import PanelSimiTitle from "@/src/components/panel/panel-simi-title";
-import PanelDescription from "@/src/components/panel/panel-description";
+import PanelSimiTitle from "@/src/components/panel/simi-title";
+import PanelDescription from "@/src/components/panel/description";
 import { cn } from "@/lib/utils";
 import type { SocialLink } from "@/lib/defination";
 import Link from "next/link";
 import Icon from "@/src/components/ui/svg";
-import PanelIndex from "./panel-index";
+import PanelIndex from ".";
 
 const PanelSocial = ({
   title,

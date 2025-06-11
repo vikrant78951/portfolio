@@ -1,7 +1,7 @@
 import React from "react";
 import Panel from "@/src/components/panel/panel";
 import type { Experience } from "@/lib/defination";
-import PanelExperience from "../panel/panel-experience";
+import PanelExperience from "../panel/experience";
 
 import { Pagination, Mousewheel, Keyboard } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";

@@ -1,7 +1,7 @@
 import React from "react";
 import Panel from "@/src/components/panel/panel";
 import type { Lander } from "@/lib/defination";
-import PanelLander from "../panel/panel-lander";
+import PanelLander from "../panel/lander";
 
 import { Pagination, Mousewheel, Keyboard } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";

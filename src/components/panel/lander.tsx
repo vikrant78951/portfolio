@@ -1,9 +1,9 @@
 "use client";
 import React from "react";
 import Stroke from "@/src/components/ui/stroke";
-import PanelSimiTitle from "@/src/components/panel/panel-simi-title";
-import PanelDescription from "@/src/components/panel/panel-description";
-import PanelIndex from "@/src/components/panel/panel-index";
+import PanelSimiTitle from "@/src/components/panel/simi-title";
+import PanelDescription from "@/src/components/panel/description";
+import PanelIndex from "@/src/components/panel";
 import { cn } from "@/lib/utils";
 import type { Lander } from "@/lib/defination";
 import Image from "next/image";

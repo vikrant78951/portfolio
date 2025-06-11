@@ -1,9 +1,9 @@
 "use client";
 import React from "react";
 import Stroke from "@/src/components/ui/stroke";
-import PanelSimiTitle from "@/src/components/panel/panel-simi-title";
-import PanelDescription from "./panel-description";
-import PanelIndex from "@/src/components/panel/panel-index";
+import PanelSimiTitle from "@/src/components/panel/simi-title";
+import PanelDescription from "./description";
+import PanelIndex from "@/src/components/panel";
 import { cn } from "@/lib/utils";
 import type { Certification } from "@/lib/defination";
 import Link from "next/link";
