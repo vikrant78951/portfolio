@@ -35,7 +35,7 @@ const PanelCertification = ({
                 <h1 className="font-bold text-lg">
                   {issuer}
                   {year && (
-                    <span className="italic text-neutral-400 font-normal ml-2">
+                    <span className="italic   font-normal ml-2">
                       -{year}
                     </span>
                   )}

@@ -26,26 +26,27 @@ const PanelEducation = ({
       >
         <div className="min-h-screen pl-8 sm:pl-16 md:pl-20 lg:pl-24 pr-4  py-4 sm:py-6 md:py-8 lg:py-10  inline-flex flex-col justify-center gap-4 sm:gap-5 md:gap-6 lg:gap-7">
           {index && <PanelIndex index={index} />}
+         
           {degree && (
             <PanelSimiTitle className="font-bold">{degree}</PanelSimiTitle>
           )}
 
           <Stroke>
-            <div className="mb-2 md:mb-4">
+            <div className="mb-2 md:mb-4 h-full">
               {institution && (
                 <h1 className="font-bold text-lg">{institution}</h1>
               )}
               {duration && (
-                <p className="italic text-neutral-400">{duration}</p>
+                <p className="italic  ">{duration}</p>
               )}
               {cgpa && (
-                <p className="italic text-neutral-400">
+                <p className="italic  ">
                   <strong>CGPA : </strong>
                   {cgpa}
                 </p>
               )}
 
-              <PanelDescription className="text-neutral-600 mt-4">{description}</PanelDescription>
+              <PanelDescription className="mt-4">{description}</PanelDescription>
             </div>
           </Stroke>
         </div>

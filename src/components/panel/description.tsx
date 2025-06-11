@@ -11,7 +11,7 @@ const PanelDescription = ({
   return (
     <p
       className={cn(
-        "text-sm sm:text-md md:text-lg  lg:text-xl leading-[100%]  text-neutral-400 ",
+        "text-sm sm:text-md md:text-lg  lg:text-xl leading-[100%]    ",
         "font-helvetica",
         className
       )}

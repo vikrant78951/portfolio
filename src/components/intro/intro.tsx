@@ -1,7 +1,7 @@
+"use client";
+import React from "react";
 import Panel from "@/src/components/panel/panel";
 import type { PersonalInfoData } from "@/lib/defination";
-
-import React from "react";
 
 const Intro = ({ data }: { data: PersonalInfoData }) => {
   const {
@@ -11,6 +11,7 @@ const Intro = ({ data }: { data: PersonalInfoData }) => {
     summary,
     specialization,
   } = data;
+
   return (
     <Panel
       title={`${firstName} ${lastName}`}

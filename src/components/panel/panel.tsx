@@ -24,7 +24,7 @@ const Panel = ({
   return (
     <section
       className={cn(
-        "h-full px-8 sm:px-16 md:px-20 lg:px-24 py-4 sm:py-6 md:py-8 lg:py-10 inline-flex flex-col justify-center gap-4 sm:gap-5 md:gap-6 lg:gap-7  ",
+        "min-h-screen px-8 sm:px-16 md:px-20 lg:px-24 py-4 sm:py-6 md:py-8 lg:py-10 inline-flex flex-col justify-center gap-4 sm:gap-5 md:gap-6 lg:gap-7  ",
         className
       )}
     >
@@ -36,7 +36,7 @@ const Panel = ({
       <Stroke>
         <div className="flex flex-col gap-2 w-full">
           {badge && (
-            <PanelSimiTitle className="sm:text-right">{badge}</PanelSimiTitle>
+            <PanelSimiTitle className="sm:text-right" animate={true}>{badge}</PanelSimiTitle>
           )}
           {description && (
             <PanelDescription className="leading-normal">

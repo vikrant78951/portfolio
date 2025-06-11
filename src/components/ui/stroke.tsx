@@ -11,13 +11,13 @@ const Stroke: React.FC<StrokeProps> = ({ size = 12, className, children }) => {
   return (
     <div
       className={cn(
-        `flex gap-4 sm:gap-6 md:gap-8 lg:gap-10 flex-grow max-h-${size}/12 `,
+        `flex gap-4 sm:gap-6 md:gap-8 lg:gap-10 flex-grow h-full max-h-${size}/12 `,
         className
       )}
     >
       <div
         className={cn(
-          `w-1 bg-primary h-full flex-shrink-0 ml-1 md:ml-2 lg:ml-3`
+          `bg-primary  w-1 ml-1 md:ml-2 lg:ml-3`
         )}
       />
       <div className="flex-1">{children}</div>

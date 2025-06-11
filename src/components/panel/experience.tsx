@@ -44,7 +44,7 @@ const PanelExperience = ({
             <div className="mb-2 md:mb-4">
               {company && <h1 className="font-bold text-lg">{company}</h1>}
               {duration && (
-                <p className="italic text-neutral-400">{duration}</p>
+                <p className="italic  ">{duration}</p>
               )}
             </div>
 
