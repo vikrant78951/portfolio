@@ -4,6 +4,7 @@ import { ThemeProvider } from "@/src/provider/theme-provider";
 
 import { raleway } from "@/src/fonts/raleway";
 import ParticlesComponent from "@/src/components/particle/partical";
+import SplashCursor from "@/src/animations/splash";
 
 export const metadata: Metadata = {
   title: "Vikas Singh",
@@ -26,6 +27,7 @@ export default function RootLayout({
         >
           {children}
           <ParticlesComponent/>
+          <SplashCursor/>
         </ThemeProvider>
       </body>
     </html>
