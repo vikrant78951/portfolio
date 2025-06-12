@@ -46,18 +46,19 @@ export default function Page() {
         nested={true}
         modules={[Pagination, Mousewheel, Keyboard]}
         direction={"vertical"}
-        pagination={{ clickable: true }}
+        
+        pagination={{
+          clickable: true,
+          bulletClass: "swiper-pagination-bullet custom-bullet bg-foreground ",
+          bulletActiveClass:
+            "swiper-pagination-bullet-active custom-bullet-active bg-primary",
+        }}
         mousewheel={{
           forceToAxis: true,
-          // Required for vertical-only control
           sensitivity: 1,
-          // Lower = less sensitive, can tweak
           thresholdDelta: 20,
-          // Prevent skipping multiple slides on fast scroll
           thresholdTime: 500,
-          // Prevent rapid slide changes
           releaseOnEdges: false,
-          // Prevents bubbling into parent scroll
         }}
         keyboard={{ enabled: true }}
         className="h-screen  w-screen"

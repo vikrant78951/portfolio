@@ -22,10 +22,12 @@ const Lander = ({
         onSwiper={(swiper) => (ref.current = swiper)}
         modules={[Pagination, Mousewheel, Keyboard]}
         direction={"horizontal"}
-        pagination={{ clickable: true }}
+        pagination={{
+          dynamicBullets: true,
+        }}
         mousewheel={{
           forceToAxis: true,
-          sensitivity: 1,
+          sensitivity: 10,
           releaseOnEdges: false,
         }}
         keyboard={{ enabled: true }}

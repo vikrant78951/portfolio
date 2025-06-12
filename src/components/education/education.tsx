@@ -23,17 +23,18 @@ const Education = ({
         onSwiper={(swiper) => (ref.current = swiper)}
         modules={[Pagination, Mousewheel, Keyboard]}
         direction={"horizontal"}
-        pagination={{ clickable: true }}
+        pagination={{
+          dynamicBullets: true,
+        }}
         mousewheel={{
-          forceToAxis: true,    // Required for vertical-only control
-          sensitivity: 1,       // Lower = less sensitive, can tweak
-          releaseOnEdges: false // Prevents bubbling into parent scroll
+          forceToAxis: true, 
+          sensitivity: 10, 
+          releaseOnEdges: false, 
         }}
         keyboard={{ enabled: true }}
         className="h-screen  w-screen"
         threshold={30}
- 
-       >
+      >
         <SwiperSlide>
           <Panel
             subtitle="2020"

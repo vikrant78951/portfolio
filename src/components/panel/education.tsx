@@ -32,7 +32,7 @@ const PanelEducation = ({
           )}
 
           <Stroke>
-            <div className="mb-2 md:mb-4 h-full">
+            <div className="mb-2 md:mb-4 h-full pr-3 md:pr-6 z-10">
               {institution && (
                 <h1 className="font-bold text-lg">{institution}</h1>
               )}

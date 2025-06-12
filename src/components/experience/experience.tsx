@@ -22,15 +22,20 @@ const Experience = ({
         onSwiper={(swiper) => (ref.current = swiper)}
         modules={[Pagination, Mousewheel, Keyboard]}
         direction={"horizontal"}
-        pagination={{ clickable: true }}
+        pagination={{
+          dynamicBullets: true,
+        }}
+        scrollbar={{
+          hide: true,
+        }}
         mousewheel={{
-          forceToAxis: true,    // Required for vertical-only control
-          sensitivity: 1,       // Lower = less sensitive, can tweak
-          releaseOnEdges: false // Prevents bubbling into parent scroll
+          forceToAxis: true,
+          sensitivity: 10,
+          releaseOnEdges: false,
         }}
         keyboard={{ enabled: true }}
         className="h-screen  w-screen"
-        >
+      >
         <SwiperSlide>
           <Panel subtitle="4.6 year" title="experience" className={className} />
         </SwiperSlide>
