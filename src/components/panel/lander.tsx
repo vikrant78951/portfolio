@@ -46,7 +46,7 @@ const PanelLander = ({
             <Link
               href={link}
               target="_blank"
-              className="text-blue-400 underline flex gap-2 "
+              className="text-primary underline flex gap-2 "
             >
               Check Lander  
             </Link>

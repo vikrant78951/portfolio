@@ -53,7 +53,7 @@ const PanelCertification = ({
                 </PanelDescription>
               )}
               {link && (
-                <Link href={link} className="text-blue-400" target="_blank">
+                <Link href={link} className="text-primary" target="_blank">
                   Check Certificates
                 </Link>
               )}

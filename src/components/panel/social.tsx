@@ -1,4 +1,3 @@
-"use client";
 import React from "react";
 import Stroke from "@/src/components/ui/stroke";
 import PanelSimiTitle from "@/src/components/panel/simi-title";
@@ -24,19 +23,24 @@ const PanelSocial = ({
     >
       <div className="h-full min-h-screen pl-8 sm:pl-16 md:pl-20 lg:pl-24 pr-4  py-4 sm:py-6 md:py-8 lg:py-10  inline-flex flex-col justify-center gap-4 sm:gap-5 md:gap-6 lg:gap-7">
         <Stroke size={1} />
-        <PanelIndex index={'Active'} />
+        <PanelIndex index={"Active"} />
         <PanelSimiTitle className="font-bold">{title}</PanelSimiTitle>
         <Stroke>
           <div className="w-full">
             {data && (
               <PanelDescription className="flex flex-wrap gap-4 sm:gap-6 md:gap-8 lg:gap-10 w-full">
                 {data.map((item: SocialLink) => (
-                  <span className="block mt-1" key={item.label}>
-                    <Link href={item.url} target="_blank" className="h-20 w-20 sm:h-24 sm:w-24 md:h-30 md:w-30 lg:h-40 lg:w-40 flex items-center justify-center shadow rounded-2xl  p-2 md:p-4 transition-all duration-700 hover:scale-110 ">
-                      <Icon
-                        iconName={item.icon}
-                        className="h-full w-auto"
-                      />
+                  <span
+                    key={item.label}
+                    className="block p-2 sm:p-4 md:p-4 lg:p-6 border border-foreground/30 bg-foreground/5 rounded-2xl backdrop-blur-xs
+ "
+                  >
+                    <Link
+                      href={item.url}
+                      target="_blank"
+                      className="h-20 w-20 sm:h-24 sm:w-24 md:h-28 md:w-28 lg:h-30 lg:w-30 flex items-center justify-center shadow rounded-2xl  p-2 md:p-4 transition-all duration-700 hover:scale-110 "
+                    >
+                      <Icon iconName={item.icon} className="h-full w-auto" />
                     </Link>
                   </span>
                 ))}
