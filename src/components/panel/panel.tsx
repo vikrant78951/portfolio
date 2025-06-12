@@ -36,7 +36,9 @@ const Panel = ({
       <Stroke>
         <div className="flex flex-col gap-2 w-full">
           {badge && (
-            <PanelSimiTitle className="sm:text-right" animate={true}>{badge}</PanelSimiTitle>
+            <PanelSimiTitle className="sm:text-right" animate={true}>
+              {badge}
+            </PanelSimiTitle>
           )}
           {description && (
             <PanelDescription className="leading-normal">

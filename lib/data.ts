@@ -3,7 +3,7 @@ export const user = {
   personalInfo: {
     firstName: "Vikas",
     lastName: "Singh",
-    title: "Frontend Developer",
+    title: "Frontend Engineer",
     specialization: [
       "Mern Stack",
       "Next.js",

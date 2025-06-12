@@ -3,9 +3,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/src/provider/theme-provider";
 
 import { raleway } from "@/src/fonts/raleway";
-import { inter } from "@/src/fonts/inter";
-import { playfair } from "@/src/fonts/playfair";
-import { manrope } from "@/src/fonts/manrope";
+import ParticlesComponent from "@/src/components/particle/partical";
 
 export const metadata: Metadata = {
   title: "Vikas Singh",
@@ -19,9 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body
-        className={`antialiased font-helvetica ${raleway.variable} ${playfair.variable} ${manrope.variable} ${inter.variable}`}
-      >
+      <body className={`antialiased  ${raleway.className}`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
@@ -29,6 +25,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           {children}
+          <ParticlesComponent/>
         </ThemeProvider>
       </body>
     </html>

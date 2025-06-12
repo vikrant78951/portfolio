@@ -1,6 +1,5 @@
 import { cn } from "@/lib/utils";
 import React from "react";
-
 const PanelMainTitle = ({
   children = "",
   className,
@@ -12,7 +11,6 @@ const PanelMainTitle = ({
     <h1
       className={cn(
         "text-4xl sm:text-5xl md:text-7xl  lg:text-8xl leading-[100%] font-bold uppercase",
-        "font-helvetica",
         className
       )}
     >

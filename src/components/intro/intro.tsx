@@ -13,14 +13,12 @@ const Intro = ({ data }: { data: PersonalInfoData }) => {
   } = data;
 
   return (
-   <div>
      <Panel
       title={`${firstName} ${lastName}`}
       subtitle={`${day}/${month}/${year}`}
       description={summary}
       stacks={specialization}
     />
-   </div>
   );
 };
 
