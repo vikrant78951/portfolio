@@ -43,7 +43,7 @@ export const ParticlesComponent = () => {
           onHover: { enable: true, mode: "repulse" },
         },
         modes: {
-          push: { quantity: 4 },
+          push: { quantity: 1 },
           repulse: { distance: 200, duration: 0.4 },
         },
       },
@@ -53,7 +53,6 @@ export const ParticlesComponent = () => {
         move: {
           enable: true,
           speed: 1.6,
-          // outModes: { default: "bounce" },
         },
         number: {
           density: { enable: true, area: 800 },
@@ -61,7 +60,7 @@ export const ParticlesComponent = () => {
         },
         opacity: { value: 0.5 },
         shape: { type: "circle" },
-        size: { value: { min: 1, max: 5 } },
+        size: { value: { min: 1, max: 1 } },
       },
       detectRetina: true,
     }),
