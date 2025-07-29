@@ -39,9 +39,7 @@
 6. /resume - View and download resume as PDF  
 7. /preview - Preview portfolio and download as PDF  
 8. /personal-tracker - Track and visualize personal goals/progress  
-9. /experience - Timeline view of experiences  
-10. /analytics - Dashboard for portfolio and progress analytics  
-11. /shedule - Day Shedule *priority*
+9. /dashboard - Dashboard for portfolio and progress analytics  
+10. /shedule - Day Shedule *priority*
 
-Date 29 July 2025
 
