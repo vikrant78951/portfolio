@@ -1,53 +1,45 @@
 
-
-Link  : https://portfolio-black-six-31.vercel.app/
-
-
-Pending Task :-
-Day One  : 
-1) Call-to-action (CTA) 
-   buttons: , 
-   Hire me section : PDF download link / rendered HTML version for SEO / Resume download cta
-   Contact Form   : visual email and number
-2) Google Maps location (open to work anyware in india)
-3) Meta Data
-4) Lighthouse Audits
-
-Day Two : 
-1) Update Images
-2) Footer
-3) Optimization :  Seo / performance 
-4) Create a section: “Built by X Studio (your brand)”
-
-Day Three : 
-1) Get a domain for (services based domain)
+/////////////////////
+//// V1 Completed
+//// Link : https://portfolio-vikrant78951s-projects.vercel.app
+/////////////////////
 
 
-Upcomming V2 Requirements (develop into service based portfolio): 
-1) Experience : Timeline view
-2) Projects / Products / SaaS : Live demo + GitHub link
-3) Testimonials (if available)
-5) Timer with Dark Mode Toggle and Weather detail based on location 
-6) Skills / Tech Stack (level bars or years of experience)
-7) Some D3 elements
+
+/////////////////////
+//// V2
+/////////////////////
+
+## Branching Strategy
+1. portfolio/main - Production-ready code  
+2. portfolio/staging - For staging environment testing  
+3. portfolio/release/v2 - For preparing v2 release  
+4. portfolio/feature/feature_name - For features
 
 
-- Home
-  → Hero: I build fast modern websites for creators & startups.
-  → CTA: “Need a personal site? Let’s talk”
+## Objectives
+1. Dynamic Portfolio
+2. Optimized & Secure
+3. Personal Growth Tracker
+4. Organization & Project Tracker
+5. Experience Timeline View
+6. Theme Toggle
+7. Comprehensive Pages
+8. Notifications
+9. Analytics Dashboard
+10. Mobile Responsiveness
+11. Daily Shedule *priorty*
 
-- Services
-  → Static Site Design (₹25K–50K)
-  → Branding + Hosting Setup
-  → Maintenance
-
-- Portfolio
-  → Add case studies: Free/pilot clients, clone templates
-
-- About
-  → “Hi, I’m [name], founder of X Studio. I build sites with speed + polish.”
-
-- Contact
-  → Form (Google Forms or Formspree)
-
+## Pages
+1. /add-detail - Form to add/edit portfolio data (admin only)  
+2. /login - Authentication page for access control  
+3. /staging-link - Access to staging environment (admin only)  
+4. /sent-email - Trigger email notifications for updates  
+5. /company-list - Manage and display organizations/projects  
+6. /resume - View and download resume as PDF  
+7. /preview - Preview portfolio and download as PDF  
+8. /personal-tracker - Track and visualize personal goals/progress  
+9. /experience - Timeline view of experiences  
+10. /analytics - Dashboard for portfolio and progress analytics  
+11. /shedule - Day Shedule *priority*
 
