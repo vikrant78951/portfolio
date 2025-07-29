@@ -2,12 +2,11 @@ import React from 'react';
 import { cn } from '@/lib/utils';
 
 interface TrackerProps {
-  className?: string;
 }
 
-const Tracker: React.FC<TrackerProps> = ({ className }) => {
+const Tracker: React.FC<TrackerProps> = () => {
   return (
-    <div className={cn('', className)}>Tracker</div>
+    <div className={cn('')}>Tracker</div>
   );
 };
 

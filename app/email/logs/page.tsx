@@ -2,12 +2,11 @@ import React from 'react';
 import { cn } from '@/lib/utils';
 
 interface LogsProps {
-  className?: string;
 }
 
-const Logs: React.FC<LogsProps> = ({ className }) => {
+const Logs: React.FC<LogsProps> = () => {
   return (
-    <div className={cn('', className)}>Logs</div>
+    <div className={cn('')}>Logs</div>
   );
 };
 

@@ -2,12 +2,11 @@ import React from 'react';
 import { cn } from '@/lib/utils';
 
 interface DashboardProps {
-  className?: string;
 }
 
-const Dashboard: React.FC<DashboardProps> = ({ className }) => {
+const Dashboard: React.FC<DashboardProps> = () => {
   return (
-    <div className={cn('', className)}>Dashboard</div>
+    <div className={cn('')}>Dashboard</div>
   );
 };
 
