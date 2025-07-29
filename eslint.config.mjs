@@ -10,7 +10,16 @@ const compat = new FlatCompat({
 });
 
 const eslintConfig = [
+  // Include Next.js presets
   ...compat.extends("next/core-web-vitals", "next/typescript"),
+
+  // Add your custom override
+  {
+    rules: {
+      "@typescript-eslint/no-empty-interface": "off",
+      "@typescript-eslint/no-empty-object-type": "off",  
+    },
+  },
 ];
 
 export default eslintConfig;
