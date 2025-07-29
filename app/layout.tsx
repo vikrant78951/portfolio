@@ -3,8 +3,6 @@ import "./globals.css";
 import { ThemeProvider } from "@/src/provider/theme-provider";
 
 import { raleway } from "@/src/fonts/raleway";
-import ParticlesComponent from "@/src/components/particle/partical";
-import CustomCursor from "@/src/animations/cursor";
 
 export const metadata: Metadata = {
   title: "Vikas Singh",
@@ -26,8 +24,6 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           {children}
-          <ParticlesComponent />
-          <CustomCursor />
         </ThemeProvider>
       </body>
     </html>
